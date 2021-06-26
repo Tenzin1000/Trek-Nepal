@@ -5,10 +5,10 @@
    <img src="../assets/logo.png" alt="">
    </div>
     <ul class="nav-links hide" id="nav-links">
-    <li v-on:click="link"><router-link to="/" >Home</router-link></li>
-    <li v-on:click="link"><router-link to="/about">About</router-link></li>
-    <li v-on:click="link"><router-link to='/destination'>Destination</router-link></li>
-    <li v-on:click="link"><router-link to='/contact'>Contact</router-link></li>
+    <li v-on:click="link"><router-link to="/trek-nepal/" >Home</router-link></li>
+    <li v-on:click="link"><router-link to="/trek-nepal/about">About</router-link></li>
+    <li v-on:click="link"><router-link to='/trek-nepal/destination'>Destination</router-link></li>
+    <li v-on:click="link"><router-link to='/trek-nepal/contact'>Contact</router-link></li>
   </ul>
   </div>
   <div id="right"><div id="search" v-on:click="search" ><a href="#" ><i class="fas fa-search search"></i></a></div>
