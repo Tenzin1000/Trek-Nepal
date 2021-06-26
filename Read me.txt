@@ -1,0 +1,9 @@
+===========================================================================
+This is Vue.js project.
+in this project I have used vue routing, vue-cli, vue features like loop and so on.
+To open this project you need to have nodejs installed with npm
+Then you can go to command line of this directive folder and press 'npm run dev'
+=====================================================================================
+
+
+*****************************BY SANGEY LAMA******************************

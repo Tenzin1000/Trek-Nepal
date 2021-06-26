@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trek nepal</title>
+    <link rel="icon" href="src/assets/logo.png" />
+    <script src="src/fontawesome/all.js"></script>
+    <style>
+      *{
+        margin:0;
+        padding:0;
+      }
+      body{
+        font-size:1.5rem;
+        position:relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="dist/build.js"></script>
+  </body>
+  <script>
+        const counters =document.querySelectorAll('.counter');
+        const speed= 50;
+
+        counters.forEach(counter => {
+            const target= + counter.getAttribute('data-target');
+            updatecount=()=>{
+                const count=+ counter.innerText;
+                const inc=target/speed;
+
+                if(counter< target){
+                    counter.innerText=cout +inc;
+                    setTimeout(updatecount,1)
+                }else{
+                    counter.innerText=target;
+                }
+            }
+            updatecount()            
+        });
+        var input=document.getElementById('range');
+        var pricetag=document.getElementById('value');
+        input.oninput=(()=>{
+          let value=input.value;
+          pricetag.textContent=value;
+        })
+    </script>
+</html>
