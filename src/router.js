@@ -4,8 +4,8 @@ import destination from './components/main/destination'
 import contact from './components/main/contact'
 
 export default[
-    {path:'/',component:main},
-    {path:'/about',component:about},
-    {path:'/destination',component:destination},
-    {path:'/contact',component:contact}
+    {path:'trek-nepal/',component:main},
+    {path:'trek-nepal/about',component:about},
+    {path:'trek-nepal/destination',component:destination},
+    {path:'trek-nepal/contact',component:contact}
 ]
