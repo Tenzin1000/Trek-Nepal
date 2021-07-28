@@ -57,7 +57,7 @@ export default {
 #contact{
     height:40vh;
     background:linear-gradient(to right,rgba(0, 0, 0, 0.397),rgba(128, 128, 128, 0.562)),
-    url(../../assets/video/dolkha.jpg)center/cover no-repeat;
+    url(../assets/video/dolkha.jpg)center/cover no-repeat;
     display:flex;
     flex-direction:column;
     align-items: center;
